@@ -1,5 +1,4 @@
-//package mypack; not needed if both classes are in the same package. - Hassassin
-
+//package mypack; not needed if both classes are in the same package
 class AA {
     void show() 
     {
