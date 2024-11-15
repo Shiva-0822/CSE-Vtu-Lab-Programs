@@ -1,6 +1,4 @@
 import java.util.*;
-//by Hassassin
-
 class A extends Exception 
 {
     A(String msg) 
