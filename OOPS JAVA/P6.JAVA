@@ -1,6 +1,5 @@
 interface Resizable 
 {
-    //by Hassassin
     void resizeWidth(int width);
     void resizeHeight(int height);
 }
