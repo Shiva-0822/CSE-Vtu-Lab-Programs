@@ -1,6 +1,5 @@
 public class Program2 
 {
-//by Hassassin
     int top = -1, capacity = 10;
     int a[] = new int[capacity];
 
