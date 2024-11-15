@@ -1,6 +1,5 @@
 class MyThread extends Thread 
 {
-    //by Hassassin
     public MyThread(String name) 
     {
         super(name);
