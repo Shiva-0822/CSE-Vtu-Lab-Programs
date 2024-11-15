@@ -1,5 +1,4 @@
 import java.util.Scanner;
-//by Hassassin
 class Employee 
 {
     String name;
