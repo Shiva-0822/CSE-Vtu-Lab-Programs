@@ -1,6 +1,5 @@
 class Shape 
 {
-    //by Hassassin
     void draw() 
     {
         System.out.println("Drawing Shape");
