@@ -1,4 +1,4 @@
-// An electricty board ----------
+// An electricty board
 #include<stdio.h>
 void main(){
 char name [10];
@@ -14,5 +14,4 @@ amt = 200*0.80+100*0.90+((unit-300)*1)+100;
 if(amt>400)
 amt = 1.51*amt;
 printf("Name : %s \n unit=%f \n charge=%f Rs", name, unit, amt);
-
 }
