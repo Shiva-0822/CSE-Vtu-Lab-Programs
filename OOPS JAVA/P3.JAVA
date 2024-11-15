@@ -1,6 +1,5 @@
 class MyPoint 
 {
-    //by Hassassin
     private int x;
     private int y;
     public MyPoint() 
