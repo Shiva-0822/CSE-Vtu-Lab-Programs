@@ -1,6 +1,5 @@
 abstract class Shape1 
 {
-    //by Hassassin
     abstract double calculateArea();
     abstract double calculatePerimeter();
 }
