@@ -1,6 +1,5 @@
 class Demo implements Runnable 
 {
-    //by Hassassin
     public void run() 
     {
         try 
