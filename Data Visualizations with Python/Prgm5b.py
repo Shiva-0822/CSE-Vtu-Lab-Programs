@@ -1,13 +1,11 @@
-# Write a Python program to Demonstrate how to Draw a Histogram Plot using Matplotlib.
+# To write a Program to demonstrate how to draw a Pie-chart using matplotlib
 
 import matplotlib.pyplot as plt
 import numpy as np
 
-data1 = np.random.normal(loc=-1, scale=1, size=1000)
-data2 = np.random.normal(loc=2, scale=1, size=1000)   
-plt.hist([data1, data2], bins=30, stacked=True, color=['yellow', 'green'], edgecolor='black')
-plt.xlabel('Value')
-plt.ylabel('Frequency')
-plt.title('Stacked Histogram')
-plt.legend(['Dataset 1', 'Dataset 2'])
+cars = ['AUDI','BMW','FORD','TESLA','JAGUAR','MERCEDES']
+data = [23, 17, 35, 29, 12, 41]
+
+fig = plt.figure(figsize=(10, 7))
+plt.pie(data, labels=cars)
 plt.show()
