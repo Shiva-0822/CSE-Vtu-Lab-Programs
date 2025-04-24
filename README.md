@@ -20,6 +20,7 @@ Feel free to explore, use, and contribute!
 This repository features a collection of lab programs spanning various subjects from the VTU CSE curriculum. Each program is written in its appropriate programming language, offering a hands-on resource for both students and educators to better understand and apply core concepts.
 
 ## Repository Contents
+* Analysys and Design Algorithm
 * Data Structures and Applications: Implementations in C.
 * Data Visualization with Python: Jupyter Notebooks and Python scripts.
 * Digital Design and Computer Organization: Verilog codes and simulations.
