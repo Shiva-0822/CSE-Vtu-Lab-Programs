@@ -8,10 +8,10 @@ VTU Lab Programs Collection
 Welcome to my collection of VTU (Visvesvaraya Technological University) lab resources!
 This repository contains well-organized lab programs and experiments for various subjects, created to help students understand and implement core concepts with ease.
 
-✅ Covers multiple semesters and subjects
-✅ Simple, well-commented code
-✅ Easy to navigate and study from
-✅ Ideal for practical preparation and revision
+       ✅ Covers multiple semesters and subjects
+       ✅ Simple, well-commented code
+       ✅ Easy to navigate and study from
+       ✅ Ideal for practical preparation and revision
 
 Feel free to explore, use, and contribute!
 
