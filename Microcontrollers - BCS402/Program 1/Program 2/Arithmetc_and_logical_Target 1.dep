@@ -1,2 +1,0 @@
-Dependencies for Project 'Arithmetc_and_logical', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Prgm2.s)(0x68112620)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\Philips"--list .\prgm2.lst --xref -o .\prgm2.o --depend .\prgm2.d)
