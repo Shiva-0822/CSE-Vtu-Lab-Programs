@@ -1,0 +1,2 @@
+Dependencies for Project 'ADD', Target 'Target 1': (DO NOT MODIFY !)
+F (.\add.s)(0x680FA138)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Philips"--list .\add.lst --xref -o .\add.o --depend .\add.d)
