@@ -1,0 +1,2 @@
+Dependencies for Project 'AIR', Target 'Target 1': (DO NOT MODIFY !)
+F (.\air.s)(0x680F9F53)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Philips"--list .\air.lst --xref -o .\air.o --depend .\air.d)

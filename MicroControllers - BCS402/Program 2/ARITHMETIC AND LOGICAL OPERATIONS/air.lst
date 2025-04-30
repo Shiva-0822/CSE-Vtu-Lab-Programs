@@ -1,0 +1,77 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             ADD, CODE, READONLY
+    2 00000000         ENTRY
+    3 00000000         START
+    4 00000000 E3A00006        MOV              R0,#6       ;
+    5 00000004 E3A01004        MOV              R1,#4       ;
+    6 00000008 E0812000        ADD              R2,R1,R0    ;
+    7 0000000C E0A13000        ADC              R3,R1,R0    ;
+    8 00000010 E0414000        SUB              R4,R1,R0    ;
+    9 00000014 E0C15000        SBC              R5, R1,R0   ;
+   10 00000018 E0616000        RSB              R6, R1,R0   ;
+   11 0000001C E0E17000        RSC              R7,R1,R0    ;
+   12 00000020 E0018000        AND              R8,R1,R0    ;
+   13 00000024 E1819000        ORR              R9,R1,R0    ;
+   14 00000028 E021A000        EOR              R10,R1,R0   ;
+   15 0000002C E1C1B000        BIC              R11,R1,R0   ;
+   16 00000030 EAFFFFFE 
+                       STOP    B                STOP
+   17 00000034         END
+                       
+Command Line: --debug --xref --apcs=interwork --depend=.\air.d -o.\air.o -I"C:\
+Program Files\Keil\ARM\RV31\INC" -I"C:\Program Files\Keil\ARM\CMSIS\Include" -I
+"C:\Program Files\Keil\ARM\Inc\Philips" --predefine="__EVAL SETA 1" --list=.\ai
+r.lst air.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+ADD 00000000
+
+Symbol: ADD
+   Definitions
+      At line 1 in file air.s
+   Uses
+      None
+Comment: ADD unused
+END 00000034
+
+Symbol: END
+   Definitions
+      At line 17 in file air.s
+   Uses
+      None
+Comment: END unused
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 2 in file air.s
+   Uses
+      None
+Comment: ENTRY unused
+START 00000000
+
+Symbol: START
+   Definitions
+      At line 3 in file air.s
+   Uses
+      None
+Comment: START unused
+STOP 00000030
+
+Symbol: STOP
+   Definitions
+      At line 16 in file air.s
+   Uses
+      At line 16 in file air.s
+Comment: STOP used once
+5 symbols
+336 symbols in table

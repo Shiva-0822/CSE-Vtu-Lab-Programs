@@ -1,0 +1,79 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             ADD, CODE, READONLY
+    2 00000000         ENTRY
+    3 00000000         START
+    4 00000000 E3A0000A        MOV              R0,#10      ;
+    5 00000004 E3A01000        MOV              R1,#0       ;
+    6 00000008         LOOP
+    7 00000008 E0801001        ADD              R1,R0,R1    ;
+    8 0000000C E2500001        SUBS             R0,#01      ;
+    9 00000010 1AFFFFFC        BNE              LOOP        ;
+   10 00000014 EAFFFFFE 
+                       STOP    B                STOP
+   11 00000018         END
+                       
+Command Line: --debug --xref --apcs=interwork --depend=.\sumof.d -o.\sumof.o -I
+"C:\Program Files\Keil\ARM\RV31\INC" -I"C:\Program Files\Keil\ARM\CMSIS\Include
+" -I"C:\Program Files\Keil\ARM\Inc\Philips" --predefine="__EVAL SETA 1" --list=
+.\sumof.lst sumof.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+ADD 00000000
+
+Symbol: ADD
+   Definitions
+      At line 1 in file sumof.s
+   Uses
+      None
+Comment: ADD unused
+END 00000018
+
+Symbol: END
+   Definitions
+      At line 11 in file sumof.s
+   Uses
+      None
+Comment: END unused
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 2 in file sumof.s
+   Uses
+      None
+Comment: ENTRY unused
+LOOP 00000008
+
+Symbol: LOOP
+   Definitions
+      At line 6 in file sumof.s
+   Uses
+      At line 9 in file sumof.s
+Comment: LOOP used once
+START 00000000
+
+Symbol: START
+   Definitions
+      At line 3 in file sumof.s
+   Uses
+      None
+Comment: START unused
+STOP 00000014
+
+Symbol: STOP
+   Definitions
+      At line 10 in file sumof.s
+   Uses
+      At line 10 in file sumof.s
+Comment: STOP used once
+6 symbols
+337 symbols in table

@@ -1,0 +1,1 @@
+.\sumof.o: sumof.s
