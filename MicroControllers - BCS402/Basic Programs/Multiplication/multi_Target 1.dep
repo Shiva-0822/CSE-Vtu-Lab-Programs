@@ -1,0 +1,2 @@
+Dependencies for Project 'multi', Target 'Target 1': (DO NOT MODIFY !)
+F (.\mul.s)(0x67CF0D80)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Philips"--list .\mul.lst --xref -o .\mul.o --depend .\mul.d)

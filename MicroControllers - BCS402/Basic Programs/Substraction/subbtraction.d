@@ -1,0 +1,1 @@
+.\subbtraction.o: subbtraction.s

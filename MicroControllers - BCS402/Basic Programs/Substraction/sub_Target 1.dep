@@ -1,0 +1,2 @@
+Dependencies for Project 'sub', Target 'Target 1': (DO NOT MODIFY !)
+F (.\subbtraction.s)(0x67CF09CE)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Philips"--list .\subbtraction.lst --xref -o .\subbtraction.o --depend .\subbtraction.d)

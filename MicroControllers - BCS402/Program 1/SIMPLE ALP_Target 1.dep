@@ -1,0 +1,2 @@
+Dependencies for Project 'SIMPLE ALP', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Simple ALP.s)(0x680F9D3F)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Philips"--list ".\simple alp.lst" --xref -o ".\simple alp.o" --depend ".\simple alp.d")

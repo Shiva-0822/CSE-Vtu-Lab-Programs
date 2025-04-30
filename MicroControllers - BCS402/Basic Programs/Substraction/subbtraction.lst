@@ -1,0 +1,40 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             ALP , CODE , READONLY
+    2 00000000         ENTRY
+    3 00000000 E3A00003        MOV              R0,#3       ;
+    4 00000004 E3A01005        MOV              R1,#5       ;
+    5 00000008 E0400001        SUB              R0,R1       ;
+    6 0000000C                 END
+Command Line: --debug --xref --apcs=interwork --depend=.\subbtraction.d -o.\sub
+btraction.o -I"C:\Program Files\Keil\ARM\RV31\INC" -I"C:\Program Files\Keil\ARM
+\CMSIS\Include" -I"C:\Program Files\Keil\ARM\Inc\Philips" --predefine="__EVAL S
+ETA 1" --list=.\subbtraction.lst subbtraction.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+ALP 00000000
+
+Symbol: ALP
+   Definitions
+      At line 1 in file subbtraction.s
+   Uses
+      None
+Comment: ALP unused
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 2 in file subbtraction.s
+   Uses
+      None
+Comment: ENTRY unused
+2 symbols
+333 symbols in table
