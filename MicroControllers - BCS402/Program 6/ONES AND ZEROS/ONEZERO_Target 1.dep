@@ -1,0 +1,2 @@
+Dependencies for Project 'ONEZERO', Target 'Target 1': (DO NOT MODIFY !)
+F (.\ones.s)(0x680FB152)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Philips"--list .\ones.lst --xref -o .\ones.o --depend .\ones.d)

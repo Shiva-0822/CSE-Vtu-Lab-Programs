@@ -1,0 +1,121 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             LARGEST, CODE, READONLY
+    2 00000000         ENTRY
+    3 00000000         START
+    4 00000000 E59F002C        LDR              R0, A       ;
+    5 00000004 E5902000        LDR              R2, [R0]    ;
+    6 00000008 E3A05003        MOV              R5, #3      ;
+    7 0000000C         NEXT
+    8 0000000C E2800004        ADD              R0, R0, #4  ;
+    9 00000010 E5903000        LDR              R3, [R0]    ;
+   10 00000014 E1520003        CMP              R2, R3      ;
+   11 00000018 8A000000        BHI              LARGE       ;
+   12 0000001C E1A02003        MOV              R2, R3      ;
+   13 00000020         LARGE
+   14 00000020 E2555001        SUBS             R5, R5, #1  ;
+   15 00000024 1AFFFFF8        BNE              NEXT        ;
+   16 00000028 E59F1008        LDR              R1, RES     ;
+   17 0000002C E5812000        STR              R2, [R1]    ;
+   18 00000030 EAFFFFFE 
+                       STOP    B                STOP
+   19 00000034 40000000 
+                       A       DCD              0x40000000  ;
+   20 00000038 40000020 
+                       RES     DCD              0x40000020  ;
+   21 0000003C         END
+                       
+Command Line: --debug --xref --apcs=interwork --depend=.\large.d -o.\large.o -I
+"C:\Program Files\Keil\ARM\RV31\INC" -I"C:\Program Files\Keil\ARM\CMSIS\Include
+" -I"C:\Program Files\Keil\ARM\Inc\Philips" --predefine="__EVAL SETA 1" --list=
+.\large.lst large.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+A 00000034
+
+Symbol: A
+   Definitions
+      At line 19 in file large.s
+   Uses
+      At line 4 in file large.s
+Comment: A used once
+END 0000003C
+
+Symbol: END
+   Definitions
+      At line 21 in file large.s
+   Uses
+      None
+Comment: END unused
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 2 in file large.s
+   Uses
+      None
+Comment: ENTRY unused
+LARGE 00000020
+
+Symbol: LARGE
+   Definitions
+      At line 13 in file large.s
+   Uses
+      At line 11 in file large.s
+Comment: LARGE used once
+LARGEST 00000000
+
+Symbol: LARGEST
+   Definitions
+      At line 1 in file large.s
+   Uses
+      None
+Comment: LARGEST unused
+NEXT 0000000C
+
+Symbol: NEXT
+   Definitions
+      At line 7 in file large.s
+   Uses
+      At line 15 in file large.s
+Comment: NEXT used once
+RES 00000038
+
+Symbol: RES
+   Definitions
+      At line 20 in file large.s
+   Uses
+      At line 16 in file large.s
+Comment: RES used once
+START 00000000
+
+Symbol: START
+
+
+
+ARM Macro Assembler    Page 2 Alphabetic symbol ordering
+Relocatable symbols
+
+   Definitions
+      At line 3 in file large.s
+   Uses
+      None
+Comment: START unused
+STOP 00000030
+
+Symbol: STOP
+   Definitions
+      At line 18 in file large.s
+   Uses
+      At line 18 in file large.s
+Comment: STOP used once
+9 symbols
+340 symbols in table

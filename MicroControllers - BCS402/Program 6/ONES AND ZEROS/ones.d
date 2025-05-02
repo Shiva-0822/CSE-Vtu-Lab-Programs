@@ -1,0 +1,1 @@
+.\ones.o: ones.s

@@ -1,0 +1,1 @@
+.\small.o: small.s
