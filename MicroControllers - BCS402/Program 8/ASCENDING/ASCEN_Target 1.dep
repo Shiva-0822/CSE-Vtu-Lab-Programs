@@ -1,0 +1,2 @@
+Dependencies for Project 'ASCEN', Target 'Target 1': (DO NOT MODIFY !)
+F (.\ascen.s)(0x680FC202)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\Philips"--list .\ascen.lst --xref -o .\ascen.o --depend .\ascen.d)
