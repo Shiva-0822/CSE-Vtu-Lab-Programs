@@ -1,0 +1,30 @@
+% 3. Develop a LaTeX script to create a simple title page of the VTU project 
+% Report [Use suitable Logos and text formatting].
+
+\documentclass[a4paper,12pt]{report}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+\begin{document}
+\begin{titlepage}
+\centering
+\includegraphics[width=0.5\textwidth]{Vtu_Logo.jpg}\par
+\vspace{1cm}
+{\LARGE\textcolor{red}{Visvesvaraya Technology University}\par}
+\vspace{0.5cm}
+{\Huge Project Report\par}
+\vspace{1.5cm}
+{\Huge \bfseries Project Title: Quantum Physics\par}
+\vspace{1cm}
+{\Large Author Name: M Shivakumar\par}
+{\Large Department: Department of CSE\par}
+{\Large University: Visvesvaraya Technology University, Belagavi\par}
+\vfill
+{\large Supervisor: Dr. Erwin Schrodinger \par}
+{\Large Supervisor's Designation: Associate Professor, Department of CSE\par}
+\vspace{0.8cm}
+{\Large Date: \today\par}
+\end{titlepage}
+\newpage
+\end{document}
