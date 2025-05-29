@@ -1,0 +1,25 @@
+% 5. Develop a LaTeX script to create a document that contains the following table with 
+% proper labels.
+
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx} % For including graphics (optional)
+\usepackage{caption} % For customizing the table caption
+\begin{document}
+\title{Student Marks Table}
+\author{M Shivakumar} % Replace with your name
+\date{\today}
+\maketitle
+\section*{Table: Student Marks}
+% Table creation
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{S.No} & \textbf{USN} & \textbf{Student Name} & \textbf{Subject 1} & \textbf{Subject 2} & \textbf{Subject 3} \\ \hline
+1 & 4XX22XX001 & Name 1 & 89 & 60 & 90 \\ \hline
+2 & 4XX22XX002 & Name 2 & 78 & 45 & 98 \\ \hline
+3 & 4XX22XX003 & Name 3 & 67 & 55 & 59 \\ \hline
+\end{tabular}
+\caption{Marks of Students in Different Subjects}
+\end{table}
+\end{document}
