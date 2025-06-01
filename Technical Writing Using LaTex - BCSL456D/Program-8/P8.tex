@@ -1,0 +1,42 @@
+% 8. Develop a LaTeX script to demonstrate the presentation of Numbered theorems, definitions,
+% corollaries, and lemmas in the document.
+
+\documentclass[a4paper,12pt]{article} 
+\usepackage{amsmath, amssymb, amsthm} % For mathematical symbols and theorems % Define theorem environments  
+\newtheorem{theorem}{Theorem}[section] % Theorem with numbering by section 
+\newtheorem{lemma}[theorem]{Lemma} % Lemma with same numbering as theorems 
+\newtheorem{corollary}[theorem]{Corollary} % Corollary with same numbering as theorems 
+\newtheorem{definition}[theorem]{Definition} % Definition with same numbering as theorems 
+\begin{document} 
+\title{Demonstrating Numbered Theorems, Definitions, Corollaries, and Lemmas} 
+\author{M Shivakumar} % Replace with your name 
+\date{\today} 
+\maketitle 
+\section*{Introduction} In this document, we will present various mathematical results, such as 
+theorems, lemmas, definitions, and corollaries, all properly numbered. 
+\section{Theorems, Definitions, Lemmas, and Corollaries}  
+\subsection*{Theorem Example} \begin{theorem} 
+If \( a \) and \( b \) are two real numbers, then their sum is commutative, i.e.,  
+\[ a + b = b + a. \] 
+\end{theorem}  
+\subsection*{Lemma Example}  
+\begin{lemma}  
+Let \( a \) and \( b \) be real numbers. If \( a + b = 0 \), then \( b = -a \).  
+\end{lemma} 
+\subsection*{Corollary Example}  
+\begin{corollary} 
+If \( a + b = 0 \) and \( a = 2 \), then \( b = -2 \).  
+\end{corollary} 
+\subsection*{Definition Example} 
+\begin{definition}  
+A number is called \textit{even} if it is divisible by 2. In other words, a number \( n \) is even if 
+there exists an integer \( k \) such that  
+\[ 
+n = 2k. 
+\]  
+\end{definition}  
+\section{Conclusion}  
+This document demonstrates how to properly number and present theorems, lemmas, 
+definitions, and corollaries in LaTeX using the `amsthm` package. You can easily refer to these 
+results within your document, and LaTeX will handle the numbering automatically. 
+\end{document}
