@@ -1,0 +1,24 @@
+% 9. Develop a LaTeX script to create a document that consists of two paragraphs with a 
+% minimum of 10 citations in it and display the reference in the section.
+
+\documentclass[a4paper,12pt]{article} 
+\usepackage[utf8]{inputenc} 
+\usepackage[english]{babel} 
+\usepackage{lipsum}
+\usepackage[style=numeric, sorting=nyt]{biblatex}  % Load biblatex package for citations 
+\addbibresource{references.bib}  % Your bibliography file (use .bib file) 
+\title{Document with Citations and References} 
+\author{M Shivakumar}  % Replace with your name 
+\date{\today} 
+
+\begin{document} 
+\maketitle 
+\section*{Introduction} 
+This is the first paragraph of the document. In this paragraph, we will cite various sources. 
+According to research the importance of LaTeX in academic writing is 
+undeniable. 
+\lipsum[1-2]
+\cite{author1,author2,author3,author4,author5,author6,author7,author8,author9,author10}
+
+\printbibliography% Print the bibliography section with the cited references 
+\end{document}

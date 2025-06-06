@@ -1,0 +1,280 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{author6}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b67563d12b4115fbb3437cc39fcce4ef}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Research Press}%
+      }
+      \strng{namehash}{b67563d12b4115fbb3437cc39fcce4ef}
+      \strng{fullhash}{b67563d12b4115fbb3437cc39fcce4ef}
+      \strng{fullhashraw}{b67563d12b4115fbb3437cc39fcce4ef}
+      \strng{bibnamehash}{b67563d12b4115fbb3437cc39fcce4ef}
+      \strng{authorbibnamehash}{b67563d12b4115fbb3437cc39fcce4ef}
+      \strng{authornamehash}{b67563d12b4115fbb3437cc39fcce4ef}
+      \strng{authorfullhash}{b67563d12b4115fbb3437cc39fcce4ef}
+      \strng{authorfullhashraw}{b67563d12b4115fbb3437cc39fcce4ef}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Scientific Writing and Publication}
+      \field{year}{2019}
+    \endentry
+    \entry{author3}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=5e20f446d2daa6c87a39214f30e3117d}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Technical Publications}%
+      }
+      \strng{namehash}{5e20f446d2daa6c87a39214f30e3117d}
+      \strng{fullhash}{5e20f446d2daa6c87a39214f30e3117d}
+      \strng{fullhashraw}{5e20f446d2daa6c87a39214f30e3117d}
+      \strng{bibnamehash}{5e20f446d2daa6c87a39214f30e3117d}
+      \strng{authorbibnamehash}{5e20f446d2daa6c87a39214f30e3117d}
+      \strng{authornamehash}{5e20f446d2daa6c87a39214f30e3117d}
+      \strng{authorfullhash}{5e20f446d2daa6c87a39214f30e3117d}
+      \strng{authorfullhashraw}{5e20f446d2daa6c87a39214f30e3117d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Document Preparation Systems}
+      \field{year}{2018}
+    \endentry
+    \entry{author5}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=4c089f435be08225365f7e6c5f42526e}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c089f435be08225365f7e6c5f42526e}
+      \strng{fullhash}{4c089f435be08225365f7e6c5f42526e}
+      \strng{fullhashraw}{4c089f435be08225365f7e6c5f42526e}
+      \strng{bibnamehash}{4c089f435be08225365f7e6c5f42526e}
+      \strng{authorbibnamehash}{4c089f435be08225365f7e6c5f42526e}
+      \strng{authornamehash}{4c089f435be08225365f7e6c5f42526e}
+      \strng{authorfullhash}{4c089f435be08225365f7e6c5f42526e}
+      \strng{authorfullhashraw}{4c089f435be08225365f7e6c5f42526e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Annual Conference on Technical Documentation}
+      \field{title}{Best Practices in Academic Writing}
+      \field{year}{2020}
+    \endentry
+    \entry{author2}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c6e717617eaab50ecad0cbbc22a24e49}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6e717617eaab50ecad0cbbc22a24e49}
+      \strng{fullhash}{c6e717617eaab50ecad0cbbc22a24e49}
+      \strng{fullhashraw}{c6e717617eaab50ecad0cbbc22a24e49}
+      \strng{bibnamehash}{c6e717617eaab50ecad0cbbc22a24e49}
+      \strng{authorbibnamehash}{c6e717617eaab50ecad0cbbc22a24e49}
+      \strng{authornamehash}{c6e717617eaab50ecad0cbbc22a24e49}
+      \strng{authorfullhash}{c6e717617eaab50ecad0cbbc22a24e49}
+      \strng{authorfullhashraw}{c6e717617eaab50ecad0cbbc22a24e49}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Document Processing}
+      \field{number}{2}
+      \field{title}{Advanced \LaTeX{} Techniques}
+      \field{volume}{15}
+      \field{year}{2019}
+    \endentry
+    \entry{author10}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=20ba296edee417d1c0016513a0a718a6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Professional Books}%
+      }
+      \strng{namehash}{20ba296edee417d1c0016513a0a718a6}
+      \strng{fullhash}{20ba296edee417d1c0016513a0a718a6}
+      \strng{fullhashraw}{20ba296edee417d1c0016513a0a718a6}
+      \strng{bibnamehash}{20ba296edee417d1c0016513a0a718a6}
+      \strng{authorbibnamehash}{20ba296edee417d1c0016513a0a718a6}
+      \strng{authornamehash}{20ba296edee417d1c0016513a0a718a6}
+      \strng{authorfullhash}{20ba296edee417d1c0016513a0a718a6}
+      \strng{authorfullhashraw}{20ba296edee417d1c0016513a0a718a6}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Professional Document Preparation}
+      \field{year}{2019}
+    \endentry
+    \entry{author8}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=ac75e8ab4dba58eed211fd75ba85f1e5}{%
+           family={Martinez},
+           familyi={M\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Digital Press}%
+      }
+      \strng{namehash}{ac75e8ab4dba58eed211fd75ba85f1e5}
+      \strng{fullhash}{ac75e8ab4dba58eed211fd75ba85f1e5}
+      \strng{fullhashraw}{ac75e8ab4dba58eed211fd75ba85f1e5}
+      \strng{bibnamehash}{ac75e8ab4dba58eed211fd75ba85f1e5}
+      \strng{authorbibnamehash}{ac75e8ab4dba58eed211fd75ba85f1e5}
+      \strng{authornamehash}{ac75e8ab4dba58eed211fd75ba85f1e5}
+      \strng{authorfullhash}{ac75e8ab4dba58eed211fd75ba85f1e5}
+      \strng{authorfullhashraw}{ac75e8ab4dba58eed211fd75ba85f1e5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Digital Typography}
+      \field{year}{2021}
+    \endentry
+    \entry{author1}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{fullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{fullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{bibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorbibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authornamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorfullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorfullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to \LaTeX}
+      \field{year}{2020}
+    \endentry
+    \entry{author7}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=04e4b01cc527b681dc6aa9db38192f81}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{04e4b01cc527b681dc6aa9db38192f81}
+      \strng{fullhash}{04e4b01cc527b681dc6aa9db38192f81}
+      \strng{fullhashraw}{04e4b01cc527b681dc6aa9db38192f81}
+      \strng{bibnamehash}{04e4b01cc527b681dc6aa9db38192f81}
+      \strng{authorbibnamehash}{04e4b01cc527b681dc6aa9db38192f81}
+      \strng{authornamehash}{04e4b01cc527b681dc6aa9db38192f81}
+      \strng{authorfullhash}{04e4b01cc527b681dc6aa9db38192f81}
+      \strng{authorfullhashraw}{04e4b01cc527b681dc6aa9db38192f81}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computing Today}
+      \field{title}{The Evolution of Document Processing}
+      \field{volume}{12}
+      \field{year}{2022}
+    \endentry
+    \entry{author9}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=dac4a0418ab188c61861644f1f1f7db5}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dac4a0418ab188c61861644f1f1f7db5}
+      \strng{fullhash}{dac4a0418ab188c61861644f1f1f7db5}
+      \strng{fullhashraw}{dac4a0418ab188c61861644f1f1f7db5}
+      \strng{bibnamehash}{dac4a0418ab188c61861644f1f1f7db5}
+      \strng{authorbibnamehash}{dac4a0418ab188c61861644f1f1f7db5}
+      \strng{authornamehash}{dac4a0418ab188c61861644f1f1f7db5}
+      \strng{authorfullhash}{dac4a0418ab188c61861644f1f1f7db5}
+      \strng{authorfullhashraw}{dac4a0418ab188c61861644f1f1f7db5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Digital Scholarship Quarterly}
+      \field{title}{Academic Publishing in the Digital Age}
+      \field{volume}{5}
+      \field{year}{2020}
+    \endentry
+    \entry{author4}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bd1511dd03c1f299f5a01f43399dc6b9}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd1511dd03c1f299f5a01f43399dc6b9}
+      \strng{fullhash}{bd1511dd03c1f299f5a01f43399dc6b9}
+      \strng{fullhashraw}{bd1511dd03c1f299f5a01f43399dc6b9}
+      \strng{bibnamehash}{bd1511dd03c1f299f5a01f43399dc6b9}
+      \strng{authorbibnamehash}{bd1511dd03c1f299f5a01f43399dc6b9}
+      \strng{authornamehash}{bd1511dd03c1f299f5a01f43399dc6b9}
+      \strng{authorfullhash}{bd1511dd03c1f299f5a01f43399dc6b9}
+      \strng{authorfullhashraw}{bd1511dd03c1f299f5a01f43399dc6b9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Typography Review}
+      \field{title}{Modern Typesetting Methods}
+      \field{volume}{8}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
