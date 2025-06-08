@@ -1,0 +1,36 @@
+% 11. Develop a LaTeX script to present an algorithm in the document using algorithm/ 
+% algorithmic/ algorithm2e Library.
+
+\documentclass{article} 
+\usepackage[utf8]{inputenc} 
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}  % Load the algorithm2e package  
+\title{Presenting an Algorithm in LaTeX}  
+\author{M Shivakumar} % Replace with your name  
+\date{\today}  
+\begin{document}  
+\maketitle  
+\section*{Algorithm Example}  
+Below is an example of an algorithm written in LaTeX using the algorithm2e.  
+\begin{algorithm}[H]  
+\SetAlgoLined % Set the style for the algorithm  
+\KwData{Input data for the algorithm}  
+\KwResult{Output of the algorithm}  
+\KwIn{A list of integers, \( A = [a_1, a_2, \dots, a_n] \)}  
+\KwOut{The maximum value in the list}  
+\caption{Find the Maximum Value in a List}  
+\Begin{  
+\SetKwFunction{FMain}{FindMax}  % Define the main function  
+\SetKwProg{Fn}{Function}{:}{}  
+\Fn{\FMain{$A$}}{  
+$max \gets A[0]$\; 
+\For{$i \gets 1$ \textbf{to} length($A$) - 1}{  
+\If{$A[i] > max$}{  
+$max \gets A[i]$\;  
+}  
+}  
+\KwRet{$max$}\;  
+}  
+\KwRet{Call \FMain{$A$}}\;  
+}  
+\end{algorithm}  
+\end{document} 
