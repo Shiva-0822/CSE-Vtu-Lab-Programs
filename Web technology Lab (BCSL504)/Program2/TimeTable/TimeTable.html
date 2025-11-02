@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>5th Sem A Timetable</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      margin: 0;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .page {
+      width: 190mm; /* safe margin inside A4 */
+      height: auto;
+      text-align: center;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    .header img {
+      width: 80px;
+      height: auto;
+    }
+    .college-info {
+      flex: 1;
+      text-align: center;
+      line-height: 1.4;
+    }
+    .college-info h1 {
+      margin: 0;
+      font-size: 16px;
+      color: #0056b3;
+    }
+    .college-info h2 {
+      margin: 0;
+      font-size: 11px;
+      color: rgb(0, 0, 0);
+    }
+    .college-info h3 {
+      margin: 0;
+      font-size: 11px;
+      font-weight: normal;
+      color: rgb(0, 0, 0);
+    }
+    .college-info h4 {
+      margin: 0;
+      font-size: 12px;
+      color: #ff0000;
+      font-weight: bold;
+    }
+    .heading-box {
+      border: 1px solid #000;
+      text-align: center;
+      font-weight: bold;
+      font-size: 11px;
+      padding: 5px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+    .heading-box p {
+      margin: 0px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 15px;
+    }
+    table, th, td {
+      border: 1px solid #000;
+    }
+    th, td {
+      padding: 5px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .note {
+      font-size: 12px;
+      margin-top: -8px;
+      text-align: left;
+    }
+    .sub-heading-box {
+      border: 1px solid #000;
+      text-align: left;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 4px;
+      margin: 10px 0 5px 0;
+    }
+    /*break*/
+     .vertical-text {
+     writing-mode: vertical-rl;
+     transform: rotate(180deg);
+     text-align: center;
+     vertical-align: middle;
+     font-weight: bold;
+     white-space: nowrap;
+     padding-top: 40px; /* 🔼 move text upward */
+     font-size: 9px;
+    }
+    /* Make timings row smaller */
+    table tr:first-child th {
+    font-size: 10px;
+    letter-spacing: 1px;   /* adjust size */
+    font-weight: bold;
+   }
+
+
+
+  </style>
+</head>
+<body>
+
+<div class="page">
+  <!-- Header with logos -->
+  <div class="header">
+    <img src="rit.png" alt="Left Logo">
+    <div class="college-info">
+      <h1>RAJEEV INSTITUTE OF TECHNOLOGY</h2>
+      <h2>HASSAN - 573 201, KARNATAKA</h4>
+      <h3>(Affiliated to VTU, Belagavi, Approved by AICTE, New Delhi)</h3>
+      <h4>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h4>
+    </div>
+    <img src="vtu.png" alt="Right Logo">
+  </div>
+
+  <!-- Department and Time table heading -->
+  <div class="heading-box">
+    <p>5th SEMESTER "A" TIME TABLE FOR 4th AUG 2025 - 4th DEC 2025 (ODD SEM) AY-2025-26</p>
+  </div>
+
+  <!-- Timetable -->
+  <table>
+    <tr>
+      <th>DAYS</th>
+      <th>09.00AM<br>10.00AM</th>
+      <th>10.00AM<br>11.00AM</th>
+      <th>11.00AM<br>11.15AM</th>
+      <th>11.15AM<br>12.15PM</th>
+      <th>12.15PM<br>01.15PM</th>
+      <th>01.15PM<br>02.05PM</th>
+      <th>02.05PM<br>03.05PM</th>
+      <th>03.05PM<br>04.05PM</th>
+      <th>04.05PM<br>05.05PM</th>
+    </tr>
+    <tr>
+      <td>MON</td>
+      <td>SE</td>
+      <td>AI</td>
+      <td rowspan="6" class="vertical-text">TEA BREAK</td>
+      <td>CN</td>
+      <td>ES</td>
+      <td rowspan="6" class="vertical-text">LUNCH BREAK</td>
+      <td colspan="2">WEB LAB B1</td>
+      <td>LIBRARY</td>
+    </tr>
+    <tr>
+      <td>TUE</td>
+      <td>AI</td>
+      <td>SE</td>
+      <td>RM</td>
+      <td>TC</td>
+      <td>Mini Project</td>
+      <td>LIBRARY</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>WED</td>
+      <td>TC</td>
+      <td>CN</td>
+      <td>AI</td>
+      <td>RM</td>
+      <td>SE</td>
+      <td>TC(T)</td>
+      <td>Student Counseling</td>
+    </tr>
+    <tr>
+      <td>THU</td>
+      <td>SE</td>
+      <td>RM</td>
+      <td colspan="2"><--CN LAB--></td>
+      <td colspan="2"><--WEB LAB B2--></td>
+      <td>Student Counseling</td>
+    </tr>
+    <tr>
+      <td>FRI</td>
+      <td>TC</td>
+      <td>CN</td>
+      <td colspan="2"><--WEB LAB B3--></td>
+      <td>Dept. Activity</td>
+      <td colspan="2">Physical Education</td>
+    </tr>
+    <tr>
+      <td>SAT</td>
+      <td>SE(T)</td>
+      <td>TC(T)</td>
+      <td>CN(T)</td>
+      <td>WEB(T)</td>
+      <td colspan="3"></td>
+    </tr>
+  </table>
+
+  <!-- Class Coordinator Box -->
+  <div class="sub-heading-box">Class Co-ordinator:</div>
+
+  <!-- Course Details -->
+  <table>
+    <tr>
+      <th>Course & Code</th>
+      <th>Course Title</th>
+      <th>Staff In-charge</th>
+      <th>Initial</th>
+      <th>VTU Hours</th>
+      <th>Allotted Hours</th>
+    </tr>
+    <tr>
+      <td>HSMS BCS501</td>
+      <td>Software Engineering & Project Management</td>
+      <td>Mr. Natraj C</td>
+      <td>NC</td>
+      <td>4+0+0</td>
+      <td>4+0+0</td>
+    </tr>
+    <tr>
+      <td>IPCC BCS502</td>
+      <td>Computer Networks</td>
+      <td>Mr. Anil Kumar K N</td>
+      <td>AKN</td>
+      <td>3+0+2</td>
+      <td>3+0+2</td>
+    </tr>
+    <tr>
+      <td>PCC BCS503</td>
+      <td>Theory of Computation</td>
+      <td>Mr. Senthilnathan S</td>
+      <td>SS</td>
+      <td>3+2+0</td>
+      <td>3+2+0</td>
+    </tr>
+    <tr>
+      <td>PCCL BCS504</td>
+      <td>Web Technology Lab</td>
+      <td>Ms. Usha C D</td>
+      <td>UCD</td>
+      <td>0+0+2</td>
+      <td>0+0+2</td>
+    </tr>
+    <tr>
+      <td>PEC BCS515B</td>
+      <td>Artificial Intelligence</td>
+      <td>Dr. H N Prakash</td>
+      <td>HNP</td>
+      <td>3+0+0</td>
+      <td>3+0+0</td>
+    </tr>
+    <tr>
+      <td>PROJ BCS586</td>
+      <td>Mini Project</td>
+      <td>Respective Guide</td>
+      <td>-</td>
+      <td>0+0+4</td>
+      <td>0+0+4</td>
+    </tr>
+    <tr>
+      <td>AEC BRMK557</td>
+      <td>Research Methodology and IPR</td>
+      <td>Dr. Mohana H S</td>
+      <td>MHS</td>
+      <td>3+0+0</td>
+      <td>3+0+0</td>
+    </tr>
+    <tr>
+      <td>MC BCS508</td>
+      <td>Environmental Studies and E-Waste Management</td>
+      <td>Mr. Manjunath K H</td>
+      <td>MKH</td>
+      <td>1+0+0</td>
+      <td>1+0+0</td>
+    </tr>
+    <tr>
+      <td>MC BPEK559</td>
+      <td>Physical Education (Sports and Athletics)</td>
+      <td>Mr. Ganesh H A</td>
+      <td>GHA</td>
+      <td>0+0+2</td>
+      <td>0+0+2</td>
+    </tr>
+  </table>
+
+  <!-- Lab Info -->
+  <p class="note"><b>CN Lab:</b> 206/207 &nbsp;&nbsp;&nbsp; <b>Web Lab:</b> 211</p>
+
+  <!-- Additional Activities -->
+  <table>
+    <tr>
+      <th>Additional Activities</th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>- Library Activity</td>
+      <td>Respective Proctors</td>
+      <td>0+1</td>
+    </tr>
+    <tr>
+      <td>- Student Counseling</td>
+      <td>Respective Proctors</td>
+      <td>0+1</td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>

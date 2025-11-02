@@ -1,0 +1,109 @@
+<!-- Apply HTML, CSS and JavaScript to design a simple calculator to perform the following 
+operations: sum, product, difference, remainder, quotient, power, square root and square. -->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <title>Simple Calculator</title> 
+  <style> 
+    body { 
+      font-family: Arial, sans-serif; 
+      background-color: #f1f2f6; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      height: 100vh; 
+    } 
+    .calculator { 
+      background-color: #fff; 
+      padding: 2rem; 
+      border-radius: 10px; 
+      box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+      text-align: center; 
+    } 
+    input[type="number"] { 
+      width: 80px; 
+      padding: 0.5rem; 
+      margin: 0.5rem; 
+      font-size: 1rem; 
+    } 
+    button { 
+      margin: 0.3rem; 
+     padding: 0.5rem 1rem; 
+      font-size: 1rem; 
+      background-color: #0984e3; 
+      color: white; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer; 
+    } 
+    button:hover { 
+      background-color: #74b9ff; 
+    } 
+    #result { 
+      margin-top: 1rem; 
+      font-size: 1.2rem; 
+      color: #2d3436; 
+    } 
+  </style> 
+</head> 
+<body> 
+  <div class="calculator"> 
+    <h2>Simple Calculator</h2> 
+    <input type="number" id="num1" placeholder="Number 1"> 
+    <input type="number" id="num2" placeholder="Number 2"><br> 
+ 
+    <button onclick="calculate('sum')">Sum</button> 
+    <button onclick="calculate('product')">Product</button> 
+    <button onclick="calculate('difference')">Difference</button> 
+    <button onclick="calculate('quotient')">Quotient</button> 
+    <button onclick="calculate('remainder')">Remainder</button><br> 
+    <button onclick="calculate('power')">Power</button> 
+    <button onclick="calculate('sqrt')">Square Root</button> 
+    <button onclick="calculate('square')">Square</button> 
+ 
+    <div id="result"></div> 
+ 
+  </div> 
+ 
+  <script> 
+    function calculate(operation) { 
+      const num1 = parseFloat(document.getElementById("num1").value); 
+      const num2 = parseFloat(document.getElementById("num2").value); 
+      let result; 
+ 
+      switch(operation) { 
+        case 'sum': 
+          result = num1 + num2; 
+          break; 
+        case 'product': 
+          result = num1 * num2; 
+          break; 
+        case 'difference': 
+          result = num1 - num2; 
+          break; 
+        case 'quotient': 
+          result = num2 !== 0 ? num1 / num2 : "Cannot divide by zero"; 
+          break; 
+        case 'remainder': 
+          result = num2 !== 0 ? num1 % num2 : "Cannot divide by zero"; 
+          break; 
+        case 'power': 
+          result = Math.pow(num1, num2); 
+          break; 
+        case 'sqrt': 
+          result = `√${num1} = ${Math.sqrt(num1)}, √${num2} = ${Math.sqrt(num2)}`; 
+          break; 
+        case 'square': 
+          result = `${num1}² = ${num1 ** 2}, ${num2}² = ${num2 ** 2}`; 
+          break; 
+        default: 
+ 
+result = "Unknown operation"; 
+} 
+document.getElementById("result").textContent = "Result: " + result; 
+} 
+</script> 
+</body> 
+</html>

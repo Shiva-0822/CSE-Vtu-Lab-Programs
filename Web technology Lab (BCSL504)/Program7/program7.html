@@ -1,0 +1,125 @@
+<!-- 7. Develop JavaScript program (with HTML/CSS) for:
+a) Converting JSON text to JavaScript Object.
+b) Convert JSON results into a date.
+c) Converting From JSON To CSV and CSV to JSON.
+d) Create hash from string using crypto.createHash() method. -->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8" /> 
+  <title>JSON Toolkit</title> 
+  <style> 
+    body { 
+      font-family: sans-serif; 
+      margin: 2rem; 
+      background: #f0f4f8; 
+    } 
+    h2 { 
+      color: #2c3e50; 
+    } 
+    textarea, input { 
+      width: 100%; 
+      padding: 0.5rem; 
+      margin-bottom: 1rem; 
+      font-size: 1rem; 
+    } 
+    button { 
+      padding: 0.6rem 1rem; 
+      background: #2980b9; 
+      color: white; 
+ 
+ 
+      border: none; 
+      margin: 0.5rem 0; 
+      cursor: pointer; 
+    } 
+    #output { 
+      white-space: pre-wrap; 
+      background: #ecf0f1; 
+      padding: 1rem; 
+    } 
+  </style> 
+</head> 
+<body> 
+  <h2>JSON Text ➜ JavaScript Object</h2> 
+  <textarea id="jsonInput" rows="4" placeholder='{"name": "Ravi", "age": 23}'></textarea> 
+  <button onclick="convertToObject()">Convert to Object</button> 
+ 
+  <h2>Extract Date from JSON</h2> 
+  <button onclick="parseDateFromJSON()">Show Date from JSON</button> 
+ 
+  <h2>JSON ⇄ CSV</h2> 
+  <textarea id="csvJsonArea" rows="4" placeholder='[{"name":"Ravi","age":23},{"name":"Anya","age":30}]'></textarea> 
+  <button onclick="jsonToCSV()">Convert JSON ➜ CSV</button> 
+  <button onclick="csvToJSON()">Convert CSV ➜ JSON</button> 
+ 
+  <h2>Create Hash using Node.js (code only)</h2> 
+  <input id="hashInput" placeholder="Enter text to hash" /> 
+  <button onclick="showHashCode()">View Node.js Hash Code</button> 
+ 
+  <h2>Output:</h2> 
+  <div id="output"></div> 
+ 
+ 
+ 
+  <script> 
+    function convertToObject() { 
+      const jsonText = document.getElementById("jsonInput").value; 
+      try { 
+        const obj = JSON.parse(jsonText); 
+        document.getElementById("output").textContent = "Parsed Object:\n" + 
+        JSON.stringify(obj, null, 2); 
+      } catch (e) { 
+        document.getElementById("output").textContent = "Invalid JSON!"; 
+      } 
+    } 
+ 
+    function parseDateFromJSON() { 
+      const json = '{"event":"Launch","date":"2025-06-15T10:00:00Z"}'; 
+      const obj = JSON.parse(json); 
+      const date = new Date(obj.date); 
+      document.getElementById("output").textContent = `Event: ${obj.event}\nDate: 
+    ${date.toString()}`; 
+    } 
+ 
+    function jsonToCSV() { 
+      const input = document.getElementById("csvJsonArea").value; 
+      try { 
+        const arr = JSON.parse(input); 
+        const header = Object.keys(arr[0]).join(","); 
+        const rows = arr.map(obj => Object.values(obj).join(",")).join("\n"); 
+        document.getElementById("output").textContent = header + "\n" + rows; 
+      } catch (e) { 
+        document.getElementById("output").textContent = "Invalid JSON format!"; 
+      } 
+    } 
+ 
+    function csvToJSON() { 
+      const text = document.getElementById("csvJsonArea").value; 
+                                                                                                       
+ 
+      const [headerLine, ...lines] = text.trim().split("\n"); 
+      const headers = headerLine.split(","); 
+      const json = lines.map(line => { 
+        const values = line.split(","); 
+        const obj = {}; 
+        headers.forEach((key, i) => obj[key] = values[i]); 
+        return obj; 
+      }); 
+      document.getElementById("output").textContent = JSON.stringify(json, null, 2); 
+    } 
+ 
+    function showHashCode() { 
+      const str = document.getElementById("hashInput").value; 
+      const nodeExample = ` 
+  // Run in Node.js 
+  const crypto = require('crypto'); 
+  const hash = crypto.createHash('sha256').update('${str}').digest('hex'); 
+  console.log(hash); 
+      `; 
+      document.getElementById("output").textContent = nodeExample; 
+    } 
+  </script> 
+</body> 
+</html>

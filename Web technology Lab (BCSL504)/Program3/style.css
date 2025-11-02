@@ -1,0 +1,83 @@
+/* Universal Selector */ 
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+ 
+/* Element selectors */ 
+h2 { 
+    color: darkblue; 
+    font-size: 28px; 
+    text-align: center; 
+    margin-top: 20px; 
+} 
+ 
+h3 { 
+    color: darkgreen; 
+    font-size: 22px; 
+    margin-bottom: 10px; 
+} 
+ 
+hr { 
+    border: 1px solid #aaa; 
+    margin: 10px 0; 
+} 
+ 
+p { 
+    font-size: 16px; 
+    color: #333; 
+    line-height: 1.6; 
+    padding: 10px; 
+} 
+ 
+/* ID selector */ 
+#highlighted { 
+    background-color: #ffffcc; 
+    font-weight: bold; 
+} 
+ 
+/* Class selector */ 
+.center-text { 
+    text-align: center; 
+    color: rgb(18, 24, 24); 
+} 
+ 
+/* Tag selector */ 
+div { 
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    margin-bottom: 10px; 
+    background-color: #f9f9f9; 
+} 
+ 
+span { 
+    color: rgb(236, 6, 6); 
+    font-style: italic; 
+} 
+ 
+/* Pseudo-class selector */ 
+a:hover { 
+    color: orange; 
+    text-decoration: underline; 
+} 
+ 
+/* Attribute selector */ 
+a[target="_blank"] { 
+    font-weight: bold; 
+    color: purple; 
+} 
+ 
+/* Time tag styling */ 
+time { 
+    color: darkorange; 
+    font-style: italic; 
+} 
+ 
+/* Image styling */ 
+img { 
+    width: 200px; 
+    border: 2px solid #555; 
+    border-radius: 10px; 
+    margin: 10px 0; 
+} 
